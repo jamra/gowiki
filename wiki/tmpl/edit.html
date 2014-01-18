@@ -1,0 +1,28 @@
+<html>
+<head>
+    <link href="/static/style.css" type='text/css' rel='stylesheet'>
+</head>
+<body>
+<header>
+    <div class="slogan">Wiki-a-go</div>
+    <div class="topbar">
+        <a class="btn" href="/directory/">directory</a>
+        <a class="btn" href="http://daringfireball.net/projects/markdown/syntax" target="_blank">markup</a>
+        <a class="btn" href="/view/{{.Title}}">view</a>
+        <input type="text" class="search" placeholder="Search"/>
+    </div>
+</header>
+<div class='container'>
+<h1>Editing {{.Title}}</h1>
+
+<form action="/save/{{.Title}}" method="POST">
+    <div><textarea class="edittext" name="body" rows="20" cols="80">{{printf "%s" .Body}}</textarea></div>
+    <div><input class='btn' type="submit" value="Save"></div>
+</form>
+
+</div>
+
+<script type="text/javascript" src="/static/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="/static/main.js"></script>
+</body>
+</html>

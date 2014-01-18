@@ -1,0 +1,129 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+.container{
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 20px;
+}
+code{
+	background-color: #FFFFD8;
+	border: 1px solid #375EAB;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding: 10px;
+
+}
+
+blockquote{
+	background: #e9e9e9;
+	padding: 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+h2{
+	background-color: rgb(224, 235, 245);
+	padding: 0;
+	color: #375EAB;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+}
+
+h1{
+	background-color: #fff;
+	padding: 0;
+	color: #375EAB;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 24px;
+}
+
+a{
+	color: #375EAB;
+	text-decoration: none;
+}
+
+header{
+	background: #E0EBF5;
+	height: 64px;
+	overflow: hidden;
+	font-family: Menlo, monospace;
+	font-size: 14px;
+	text-align: center;
+	color: #222;
+	padding:5px;
+}
+
+.slogan{
+	float: left;
+	margin: 0 0 10px 0;
+	padding: 21px 0;
+	padding-left: 10px;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.topbar{
+	color: rgb(34, 34, 34);
+	display: block;
+	width:500px;
+	float: right;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	height: 44px;
+	padding: 10px;
+}
+
+.btn{
+	color: white;
+	background: #375EAB;
+	border: 1px solid #375EAB;
+	text-decoration: none;
+	font-size: 16px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 10px;
+	cursor:pointer;
+}
+
+input.search{
+	/*position: relative;*/
+	top: 1px;
+	/*float:right;*/
+	width: 73px;
+	background: white;
+	border: 1px solid #375EAB;
+
+	padding: 10px;
+	text-decoration: none;
+	font-size: 16px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+
+.edittext{
+	font-family: Menlo, monospace;
+	font-size: 16px;
+}
+
+li {
+	/*list-style-type: none;
+	background: url('/static/leaf_icon.jpg') no-repeat top left;
+	height: 35px;
+	padding-left: 40px;
+	font-size: 16px;*/
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+
+}
