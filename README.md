@@ -10,4 +10,13 @@ I took the wiki example: [golang.org](http://golang.org/doc/articles/wiki/) and 
 # Dependency
 > github.com/knieriem/markdown
 
+#Usage
+* Download the repo
+* Install the prerequisite
+ 
+  > go get http://github.com/knieriem/markdown
+* From the wiki directory, 
+ 
+ > go run wiki.go
 
+The default port is 8080
