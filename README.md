@@ -1,7 +1,7 @@
 gowiki
 ======
 
-Wiki built in golang with a front page and directory. Uses Markdown.
+Wiki built in golang with a front page and directory. Uses Markdown. 
 
 
 # What it is
