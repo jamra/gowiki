@@ -20,3 +20,9 @@ I took the wiki example: [golang.org](http://golang.org/doc/articles/wiki/) and 
  > go run wiki.go
 
 The default port is 8080
+
+
+#TODO
+*The search does not work at all now. It's just a pretty placeholder
+*Make a master template to hold the header and CSS link
+*Create reusable tools for the wiki page such as an automatic legend like wikimedia has. Basically, it takes the headers and constructs a hierarchical legend. It is kind of cool.
